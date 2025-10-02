@@ -8,7 +8,7 @@ const jwt = require('jsonwebtoken');
 
 // dotenv 모듈
 const dotenv = require('dotenv');
-dotenv.config();
+dotenv.config({ path: '../.env' })
 
 router.use(express.json());
 
